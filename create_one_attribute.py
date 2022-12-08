@@ -3,7 +3,3 @@
 class Person:
     def __init__(self,name):
         self.name = name
-    def ism(self):
-        return f"ism{self.name}"
-x = Person(name = 'Ayyubxon')
-print(x.ism())
